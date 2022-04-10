@@ -7,7 +7,7 @@
     <script type="text/javascript">
     function sureToDelete(id){
       if(confirm("Are you sure you want to Delete this Car?")){
-        window.location.href ='delete.php?id='+id;
+        window.location.href ='delete.html?id='+id;
       }
     }
   </script>
@@ -15,7 +15,7 @@
   <script type="text/javascript">
     function sureToEdit(id){
       if(confirm("Are you sure you want to Edit this Car?")){
-        window.location.href ='modify.php?id='+id;
+        window.location.href ='modify.html?id='+id;
       }
     }
   </script>
@@ -40,9 +40,9 @@ body {
 
  <div class="topnav">
   <a href="../index.html">Home</a>
-  <a class = "active" href="car_data.php">Car</a></li>
-  <a href="../add/add.php">Add New Car</a>
-  <a href="../review/review.php">Review Feedback</a></li>
+  <a class = "active" href="car_data.html">Car</a></li>
+  <a href="../add/add.html">Add New Car</a>
+  <a href="../review/review.html">Review Feedback</a></li>
   <a href="../../INDEX.html">Log Out</a> </li>
 </div>
 
